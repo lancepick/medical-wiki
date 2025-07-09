@@ -30,7 +30,7 @@ markdown_extensions:
   - pymdownx.highlight
   - pymdownx.inlinehilite
   - toc:
-      permalink: "🔗"
+      permalink: true
 
 nav:
   - Home: index.md
