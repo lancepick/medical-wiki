@@ -7,6 +7,8 @@ Welcome to the clinical reference guide for healthcare professionals.
  - [COPD](/copd.md)
  - [Diabetes Type 2](/diabetes-type-2.md)
  - [Hypertension](/hypertension.md)
+ - [Google](https://www.google.com)
+
 
 * Use the search function to find specific conditions
 * Click on disease names to see detailed information
