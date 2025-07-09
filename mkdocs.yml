@@ -1,6 +1,6 @@
 site_name: Medical Reference Wiki
 site_description: Clinical reference guide for healthcare professionals
-site_url: https://your-username.github.io/medical-wiki
+site_url: https://lancepick.github.io/medical-wiki
 
 theme:
   name: material
@@ -33,18 +33,8 @@ markdown_extensions:
 
 nav:
   - Home: index.md
-  - Diseases:
-    - Overview: diseases/index.md
-    - Type 2 Diabetes: diseases/diabetes-type-2.md
-    - Hypertension: diseases/hypertension.md
-  - Procedures:
-    - Overview: procedures/index.md
-    - Blood Pressure: procedures/blood-pressure.md
-  - Resources:
-    - Guidelines: resources/guidelines.md
-    - References: resources/references.md
 
 extra:
   social:
     - icon: fontawesome/solid/hospital
-      link: #
+      link: https://lancepick.github.io/medical-wiki
