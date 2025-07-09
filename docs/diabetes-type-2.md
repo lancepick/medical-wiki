@@ -31,16 +31,14 @@ Type 2 diabetes is a metabolic disorder characterized by high blood sugar, insul
 ## Diagnostic Criteria
 
 ```mermaid
-graph TD
-    A[Suspected Diabetes] --> B{Fasting Glucose}
-    B -->|≥126 mg/dL| C[Diabetes Confirmed]
-    B -->|100-125 mg/dL| D[Prediabetes]
-    B -->|<100 mg/dL| E{HbA1c Available?}
-    E -->|Yes| F{HbA1c Level}
-    F -->|≥6.5%| C
-    F -->|5.7-6.4%| D
-    F -->|<5.7%| G[Normal]
-    E -->|No| H[Consider OGTT]
+---
+config:
+  theme: redux
+---
+flowchart TD
+    A(["Start"]) --> B{"Decision"} & n1["Untitled Node"]
+    B --> C["Option A"] & D["Option B"] & n1
+    A --> B
 ```
 
 ## Treatment Algorithm
