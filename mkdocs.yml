@@ -1,0 +1,50 @@
+site_name: Medical Reference Wiki
+site_description: Clinical reference guide for healthcare professionals
+site_url: https://your-username.github.io/medical-wiki
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: blue
+      accent: light blue
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - search.highlight
+    - search.share
+
+plugins:
+  - search
+  - mermaid2
+
+markdown_extensions:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mizer
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymkdocs.tabbed
+  - pymkdocs.highlight
+  - pymkdocs.inlinehilite
+  - toc:
+      permalink: true
+
+nav:
+  - Home: index.md
+  - Diseases:
+    - Overview: diseases/index.md
+    - Type 2 Diabetes: diseases/diabetes-type-2.md
+    - Hypertension: diseases/hypertension.md
+  - Procedures:
+    - Overview: procedures/index.md
+    - Blood Pressure: procedures/blood-pressure.md
+  - Resources:
+    - Guidelines: resources/guidelines.md
+    - References: resources/references.md
+
+extra:
+  social:
+    - icon: fontawesome/solid/hospital
+      link: #
