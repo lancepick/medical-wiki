@@ -4,9 +4,9 @@ Welcome to the clinical reference guide for healthcare professionals.
 
 ## How to Use This Wiki
 
- - [COPD](/copd.md)
- - [Diabetes Type 2](/diabetes-type-2.md)
- - [Hypertension](/hypertension.md)
+ - [COPD](copd.md)
+ - [Diabetes Type 2](diabetes-type-2.md)
+ - [Hypertension](hypertension.md)
  - [Google](https://www.google.com)
 
 
