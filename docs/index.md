@@ -12,6 +12,7 @@ Welcome to the clinical reference guide for healthcare professionals.
 ## Contributing
 
 To add or update content:
+
 1. Navigate to the relevant file
 2. Click the pencil icon to edit
 3. Make your changes
