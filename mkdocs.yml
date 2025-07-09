@@ -23,11 +23,12 @@ markdown_extensions:
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid
-          class: mizer
+          class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
-  - pymkdocs.tabbed
-  - pymkdocs.highlight
-  - pymkdocs.inlinehilite
+  - pymdownx.tabbed
+      alternate_style: true
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
   - toc:
       permalink: true
 
