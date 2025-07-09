@@ -2,24 +2,12 @@
 
 Welcome to the clinical reference guide for healthcare professionals.
 
-## Quick Navigation
-
-* [Disease Reference](diseases/) - Comprehensive disease information
-* [Procedures](procedures/) - Clinical procedures and protocols
-* [Resources](resources/) - Guidelines and references
-
 ## How to Use This Wiki
 
 * Use the search function to find specific conditions
 * Click on disease names to see detailed information
 * Follow treatment algorithms and diagnostic flowcharts
 * Check references for latest guidelines
-
-## Recent Updates
-
-* 2024-01-15: Added diabetes management protocols
-* 2024-01-10: Updated hypertension guidelines
-* 2024-01-05: Added new diagnostic flowcharts
 
 ## Contributing
 
